@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,600;1,500&family=Inter:wght@400;500&family=Montserrat:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 25px 7px 25px;
+}
+
+
+#lista{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#lista a{
+    color: #696C85;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#lista a:hover{
+    color: #8474e9
+}
+
+#nav-cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+#icons-cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+
+#botao1{
+    background-color: #5138EE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 24px;
+    width: 116px;
+    height: 44px;
+    cursor: pointer;
+}
+
+#botao1:hover{
+    background-color: #60589b;
+}
+
+#botao1 a{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+/* Fim Cabeçalho */
+
+#container{
+    margin: 0 10% 0 10%;
+    padding-bottom: 5%;
+}
+
+#banner{
+    margin-bottom: 30px;
+}
+
+#background{
+    width: 100%;
+    height: 364px;
+}
+
+#texto-principal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 25%;
+    left: 20%;
+    width: 350px;
+    color: #fff;
+}
+
+#banner h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#banner span{
+    color: #5138EE;
+}
+
+#banner p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+#botao2{
+    background-color: #5138EE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 34px;
+    width: 152px;
+    height: 38px;
+    cursor: pointer;
+}
+
+#botao2:hover{
+    background-color: #60589b;
+}
+
+#botao2 a{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+/* Fim Section 1 */
+
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#card-perfil{
+    border: solid #EBEBEB 1px;
+    width: 384px;
+    height: 408px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+#card-perfil h2{
+    margin-right: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0A071B;
+}
+
+#card-perfil h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#texto-perfil{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #828282;
+    line-height: 40px;
+    text-align: center;
+}
+
+#itens-card-perfil{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    height: 68px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+    margin: 30px 0 30px 0;
+}
+
+#itens-card-perfil span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    color: #0A071B;
+    cursor: pointer;
+}
+
+#itens-card-perfil span:hover{
+    background: url(retangulo.png) no-repeat top center;
+    padding: 15px;
+    color: #5138EE;
+}
+
+#itens-card-perfil p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #828282;
+    cursor: pointer;
+}
+
+/* Fim card-perfil */
+
+#postagens{
+    width: 800px;
+    height: 408px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+    border: solid 1px #EBEBEB;
+    border-radius: 8px;
+}
+
+#postagens h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+    color: #0A071B;
+}
+
+#conjunto-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card{
+    border: #EBEBEB solid 1px;
+    border-radius: 10px;
+    width: 225px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 225px;
+    height: 130px;
+}
+
+.texto-card-postagens{
+    height: 200px;
+    padding: 15px;
+}
+
+.bnt-categoria{
+    font-family: 'Montserrat', sans-serif;
+    color: #5138EE;
+    font-weight: 600;
+    font-size: 13px;
+    background:  #DCDAE6;
+    border-radius: 37px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bnt-categoria:hover{
+    background:  #b7b5be;
+}
+
+.card p{
+    font-family: 'Montserrat', sans-serif;
+    color: #0A071B;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 8px 0 ;
+}
+
+.card span{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 23px;  
+    color: #696C85;
+
+}
+
+
